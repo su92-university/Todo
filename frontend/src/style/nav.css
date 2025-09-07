@@ -1,0 +1,59 @@
+.navbarmainupperddiv{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    border-radius: 10px;
+    height: 60px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 17, 43,0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 30px rgb(90, 89, 89);
+}
+.navbarmainddiv{
+    display: flex;
+    padding: 0 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarrightside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarlogoddiv h1{
+    color: rgb(59, 130, 246);
+}
+.navbarrightsidelinks{
+    color: white;
+    padding: 15px;
+}
+.navbarrightsidelinks:hover{
+    color: rgb(59, 130, 246);
+    border-bottom: 1px solid rgb(59, 130, 246);
+}
+.navbarrightsidebtndiv .navbarrightsidebtn{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+.navbarrightsidebtndiv .navbarrightsidebtn:hover{
+    background-color: rgb(59, 130, 246);
+}
+.navbarleftsidebtnresume{
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(59, 130, 246);
+    border-radius: 10px;
+    border: none;
+}
